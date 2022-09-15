@@ -32,6 +32,7 @@ table {
     border-collapse: collapse;
 }
 
+
 /* tr {
     border: solid black
 } */
@@ -49,6 +50,8 @@ td {
 
 }
 
+
+
 th {
     border: solid black 4px;
     background-color: rgba(255, 105, 180, 0.571);
@@ -57,7 +60,9 @@ th {
     font-family: "Staatliches";
 }
 
-
+tr:nth-child(2n + 2) {
+  background-color: rgba(255, 105, 180, 0.571);
+}
 
 
 
